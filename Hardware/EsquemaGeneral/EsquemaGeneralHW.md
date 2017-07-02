@@ -1,0 +1,4 @@
+Atendiendo a los recursos y especificaciones HW requeridas se elabora el siguiente esquema general 
+del conexionado que permite la visualización global del conjunto del diseño.
+
+
