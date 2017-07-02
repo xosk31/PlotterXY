@@ -9,10 +9,10 @@ El dispositivo grabador Plotter XY , basado totalmente en Open Source, ofrece un
  - RAMPS 1.4.
  - Full Graphic Smart Controller.
  - Pololu A4988.
- -2 Motores paso a paso.
+ - 2 Motores paso a paso.
  - Servomotor.
  - Fuente de alimentacion.
- - 4 finales de carrera.
+ - 4 conmutadores.
  - Diodo láser.
  
 ## Requisitos SW:
@@ -28,24 +28,24 @@ El dispositivo grabador Plotter XY , basado totalmente en Open Source, ofrece un
  
 ## Puesta en marcha:
  
-1. Descargar el firmware Plotter XY y el algoritmo de transformación de imágenes.
+**1.** Descargar el firmware Plotter XY y el algoritmo de transformación de imágenes.
      
-2. Descargar los entornos de desarrollo Arduino Ide, Netbeans e Inkscape.
+**2.**  Descargar los entornos de desarrollo Arduino Ide, Netbeans e Inkscape.
  
-3. Cargar el firmware Plotter XY en la placa Arduino Mega2560 por medio de Arduino Ide
+**3.**  Cargar el firmware Plotter XY en la placa Arduino Mega2560 por medio de Arduino Ide
  
-4. Llevar a cabo el montaje del sistema HW segun los pasos de montaje del HW (disponible en este repositorio)
+**4.** Llevar a cabo el montaje del sistema HW segun los pasos de montaje del HW (disponible en este repositorio)
            -
-5. Formatear la tarjeta SD a un formato FAT16 o FAT32.
+**5.** Formatear la tarjeta SD a un formato FAT16 o FAT32.
  
-6. Modelar el diseño de la figura a serigrafiar por medio de Inkscape.
+**6.** Modelar el diseño de la figura a serigrafiar por medio de Inkscape.
  
-7. Generar los G-Code de la imagen. Tutorial: https://www.shapeoko.com/wiki/index.php/User:BHSPitMonkey/Inkscape\_and\_Gcodetools\_Tutorial
+**7.** Generar los G-Code de la imagen. Tutorial: https://www.shapeoko.com/wiki/index.php/User:BHSPitMonkey/Inkscape\_and\_Gcodetools\_Tutorial
  
-8. Aplicar el algoritmo de transformación de imágenes mediante NetBeans importando el Algoritmo de transformación de imagenes.rar
+**8.** Aplicar el algoritmo de transformación de imágenes mediante NetBeans importando el Algoritmo de transformación de imagenes.rar
  
-9. Copiar el archivo de salida “serigrafia.txt” en la tarjeta SD
+**9.** Copiar el archivo de salida “serigrafia.txt” en la tarjeta SD
  
-10. Conectar la estructura a la red eléctrica.
+**10.** Conectar la estructura a la red eléctrica.
  
-11. Insertar la tarjeta SD en el lector de tarjetas de la RAMPS.
+**11.** Insertar la tarjeta SD en el lector de tarjetas de la RAMPS.
