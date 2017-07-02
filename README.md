@@ -1,7 +1,7 @@
 # PlotterXY
 Diseño e implementación Hardware, Software y Firmware de un Plotter XY para arduino Mega2560 + RAMPS 1.4
 
-El dispositivo grabador Plotter XY , basado totalmente en Open Source, ofrece una solución de mínima inversión sin renunciar a prestaciones de calidad gracias a su carácter multifuncional que ofrece soluciones de serigrafía tanto para entornos profesionales como educacionales.
+El dispositivo grabador Plotter XY , basado totalmente en Open Source, ofrece una solución de mínima inversión sin renunciar a prestaciones de calidad gracias a su carácter multifuncional que ofrece soluciones de impresión tanto para entornos profesionales como educacionales.
  
 ## Requisitos HW:
  
