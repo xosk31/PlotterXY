@@ -38,7 +38,7 @@ El dispositivo grabador Plotter XY, completamente basado en Open Source, ofrece 
  
 ## Firmware
 
-* **Código**
+* **Código**.
 
 ### Requisitos FW:
  
