@@ -28,7 +28,7 @@ El dispositivo grabador Plotter XY , basado totalmente en Open Source, ofrece un
  
 ## Puesta en marcha:
  
-**1.** Descargar el firmware Plotter XY y el algoritmo de transformación de imágenes.
+**1.** Descargar el firmware Plotter XY y el algoritmo de transformación de imágenes. (disponible en este repositorio).
      
 **2.**  Descargar los entornos de desarrollo Arduino Ide, Netbeans e Inkscape.
  
