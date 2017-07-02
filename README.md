@@ -34,7 +34,7 @@ El dispositivo grabador Plotter XY , basado totalmente en Open Source, ofrece un
  
 **3.**  Cargar el firmware Plotter XY en la placa Arduino Mega2560 por medio de Arduino Ide
  
-**4.** Llevar a cabo el montaje del sistema HW segun los pasos de montaje del HW (disponible en este repositorio)
+**4.** Llevar a cabo el montaje del sistema HW segun los pasos de montaje del HW (disponible en este repositorio).
            -
 **5.** Formatear la tarjeta SD a un formato FAT16 o FAT32.
  
