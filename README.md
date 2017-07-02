@@ -29,6 +29,7 @@ El dispositivo grabador Plotter XY, completamente basado en Open Source, ofrece 
 * **Algoritmo de transformación de imágenes:** 
     + Descripción de sus módulos: vectorización de mapa de bits, transformación de coordenadas a G-Code y algoritmo de adaptación de los G-Code.
     + Código y ejemplos de calibración.
+    + Flujograma.
     
  ### Requisitos SW:
  - Inkscape: https://inkscape.org/es/descargas/
@@ -39,6 +40,7 @@ El dispositivo grabador Plotter XY, completamente basado en Open Source, ofrece 
 ## Firmware
 
 * **Código**.
+* **Flujograma**.
 
 ### Requisitos FW:
  
