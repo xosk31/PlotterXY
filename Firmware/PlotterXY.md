@@ -8,9 +8,9 @@ para convertir el fichero de datos .txt en instrucciones de control y coordinaci
 Plotter XY, actúa como SW de solo lectura en el microcontrolador Atmel ATmega2560 , datasheet, que reside en la flash 
  ROM de la placa de desarrollo Arduino Mega 2560, lo que permite su actualización mediante el borrado y reescritura. Los recursos 
  de memoria utilizados se pueden consultar en la Tabla:
- 
- 
- 
+
+![tablafirmware](https://user-images.githubusercontent.com/15126832/27790432-a6c10284-5ff0-11e7-9099-8dd6f4b4fb28.PNG)
+
  Tal y como se observa en la tabla tabla:recursosmemoria, el Sketch utiliza 42116B del espacio de almacenamiento de programa, 
  las variables globales emplean 1748B y quedan libres 6444B para las variables locales. La EEPROM no es necesaria ya que no se precisa 
  de configuraciones no volátiles previas. Adicionalmente, el tiempo de lectura y escritura es muy superior al de la SRAM lo que 
@@ -29,7 +29,7 @@ documentación alojada en GitHub se especifican los pines de conexión a la RAMP
 tanto en las lecturas como en las escrituras analógicas o digitales de datos, comunicaciones SPI e I$^{2}$C y las entradas 
 digitales de las interrupciones.
 
-
+ ![firmware 1](https://user-images.githubusercontent.com/15126832/27790431-a6ae5d0a-5ff0-11e7-997d-252d6e0ee943.png)
 
 ## Descripción de módulos:
 
@@ -141,6 +141,8 @@ a paso A4988 permite la disposición de los micropasos. Para decidir la resoluci
 * **Primero:** 
 se mide el avance del motor en cada paso según su resolución, es decir, un step; teniendo en cuenta que en una vuelta 
 completa con cualquier resolución recorre 36,78mm. Las medidas obtenidas se recogen en la siguiente Tabla:
+
+![tablamicropasos](https://user-images.githubusercontent.com/15126832/27790433-a6cd459e-5ff0-11e7-8b29-c83221f65a6c.PNG)
     
 * **Segundo:** utilizando los valores previos, se realiza la división entre el valor de la diferencia o desplazamiento que deben 
 abarcar los motores y la distancia que avanza el motor con cada resolución. A partir de esta relación se obtiene el resto 
