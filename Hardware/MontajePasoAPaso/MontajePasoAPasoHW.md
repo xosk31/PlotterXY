@@ -9,7 +9,9 @@ La fuente de alimentación es configurada para que ofrezca un margen de entre 30
 elevadas que dañen los componentes. Esto es debido a que alimenta directamente a la RAMPS sobre sus entradas de 5A por lo que su voltaje 
 y su corriente debe ser el de operación de esta: 12V y 1A respectivamente.
 
-El esquema de la conexión se presenta en la siguiente Figura
+El esquema de la conexión se presenta en la siguiente Figura:
+
+![primerpaso1](https://user-images.githubusercontent.com/15126832/27786555-f10055b6-5fe1-11e7-92d6-c9273de263c4.png)
 
 ## 2. Conexión de los drivers de control Pololu A4988 y los  motores paso a paso:
 
@@ -26,7 +28,7 @@ que dañe el motor. Para ello, se inserta el Pololu A4988 en la RAMPS, tal y com
 y se conecta el voltímetro entre Vref del driver de control y masa para medir el voltaje en el pin y a partir de la limitación 
 de corriente establecer el voltaje deseado.
 
------ Foto 4988 pinout
+![a4988datasheet](https://user-images.githubusercontent.com/15126832/27786556-f10191ec-5fe1-11e7-97ea-5b05e321a43e.png)
 
 El datasheet del fabricante establece el valor máximo de limitación de corriente que atraviesa la 
 bobina del motor como:
@@ -45,13 +47,15 @@ cada fase como el que tiene el A4988. Los motores paso a paso bipolares tienen c
 como se puede apreciar en la Figura. Para localizar las bobinas se mide la resistencia con un multímetro entre los cables, 
 de manera que los que tienen una resistencia distinta de infinito representan una fase.
 
-----Foto motor recortado
+![motorrecortado1](https://user-images.githubusercontent.com/15126832/27786559-f104cfe2-5fe1-11e7-93b7-c5e983779045.png)
 
 Para controlar el motor bipolar con el A4988, se conecta el cable paso a paso A a la salida de la placa 1A (cable azul), 
 el cable paso a paso C a la salida de la placa 1B (cable rojo), el cable paso a paso B a la salida de la placa 2A (cable verde) 
 y el cable paso a paso D a la salida de la placa 2B (cable negro).
 
 El esquema de la conexión se presenta en la siguiente Figura:
+
+![segundopaso1](https://user-images.githubusercontent.com/15126832/27786558-f104182c-5fe1-11e7-90a4-30c695610e38.png)
 
 Una vez están conectados y calibrados los motores y los drivers de control se verifica que cada pulso de entrada escalón 
 corresponde a un micropaso del motor paso a paso en la dirección seleccionada por el pin DIR. El chip tiene tres 
@@ -67,7 +71,7 @@ El control de la resolución en la RAMPS se realiza mediante la inserción de ju
 al máximo el potencial del driver se realiza la conexión de los pines MS1, MS2 y MS3 del Pololu a pines digitales de la RAMPS 
 consiguiendo adaptar los pasos del motor de forma controlada desde el Firmware como se muestra en la Tabla:
 
-----Foto tabla pasos
+![tablapasos](https://user-images.githubusercontent.com/15126832/27786557-f1024128-5fe1-11e7-884f-d97ce5f5701d.PNG)
 
 ## 3. Conexión de los 4 conmutadores:
 
@@ -76,7 +80,7 @@ comunicar si se ha pulsado o no.
  
 El esquema de la conexión se presenta en la siguiente Figura:
 
-----FOTO PASO 3
+![tercer_paso1](https://user-images.githubusercontent.com/15126832/27786563-f11b3fde-5fe1-11e7-94a5-0b18e9746f38.png)
 
 La patilla negativa se conecta a tierra, la de alimentación al aire ya que es activo a nivel alto, por tanto, 
 el pulso de entrada por el que se detecta el flanco de subida o de bajada es conectado a la tercera conexión, la de la señal, 
@@ -92,7 +96,7 @@ por un cable negro y control, por el que se envía la señal para comunicar el �
 
  El esquema de la conexión se presenta en la siguiente Figura:
  
- --fOTO PASO 4
+![cuartopaso2](https://user-images.githubusercontent.com/15126832/27786562-f11500d8-5fe1-11e7-8d33-417c22a3aae9.png)
  
  El cable negativo se conecta a tierra, la alimentación a 5V, regido por las especificaciones puesto que su voltaje debe estar 
  comprendido entre 4.8 y 6V con una corriente de 40 mA y, la señal de control a una entrada digital.
@@ -103,6 +107,8 @@ Un diodo láser tiene 3 conexiones: alimentación o positiva, tierra o negativa 
 para comunicar si se debe encender o no.
 
 El esquema de la conexión se presenta en la siguiente Figura:
+
+![sextopaso1](https://user-images.githubusercontent.com/15126832/27786560-f1071536-5fe1-11e7-8030-869a780e9eed.png)
 
 La patilla negativa se conecta a tierra, la de alimentación al aire ya que si estuviese conectada siempre emitiría, 
 por ser activo a nivel alto y por tanto, el pulso de entrada por el que se detecta el flanco de subida o de bajada es 
@@ -117,7 +123,7 @@ GND del Arduino Mega2560.
 
 El esquema de la conexión se presenta en la siguiente Figura:
 
--- fOTO PASO 5
+![quintopaso3](https://user-images.githubusercontent.com/15126832/27786561-f113bc64-5fe1-11e7-8017-ce19d4d015f8.png)
 
 
 
