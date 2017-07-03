@@ -11,3 +11,5 @@ de coordenadas X e Y que se almacenan en un fichero de datos con extensión \tex
 implementación se elabora la siguiente Figura:
 
 ![esquemasoftware1](https://user-images.githubusercontent.com/15126832/27786807-f0ac1ec8-5fe2-11e7-9c31-733c1c3d873a.png)
+
+Para realizar esta transformación se utilizan varios entornos gráficos libres y de código abierto: Inkscape, para la edición de vectores gráficos y NetBeans, como entorno de desarrollo integrado simple.
