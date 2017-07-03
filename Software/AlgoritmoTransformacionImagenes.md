@@ -20,17 +20,23 @@ en los ejemplos que facilita Inkscape:
 ### Escala de grises:
 
 Efectúa la suma de las bandas de colores primarios, RGB, de cada píxel para decidir si se considera blanco o 
-negro según un umbral establecido. Un ejemplo de transformación se representa en la Figura
+negro según un umbral establecido. Un ejemplo de transformación se representa en la Figura:
+
+![sw1](https://user-images.githubusercontent.com/15126832/27788927-b5cd3e06-5fea-11e7-96ba-6574d1f25fb0.PNG)
 
 ### Pasos de luminosidad:
 
 Emplea un algoritmo de detección de bordes que efectúa una búsqueda de isoclinas de contrastes similares. Un ejemplo
-de transformación se representa en la Figura
+de transformación se representa en la Figura:
+
+![sw2](https://user-images.githubusercontent.com/15126832/27788929-b5d02e54-5fea-11e7-859c-0e6a79c4fd92.PNG)
 
 ### Cuantificación de color:
 
 A diferencia de las anteriores, en lugar de mostrar el contraste, busca los bordes donde los colores cambian decidiendo si 
-es blanco o negro según la uniformidad del color. Un ejemplo de transformación se representa en la Figura
+es blanco o negro según la uniformidad del color. Un ejemplo de transformación se representa en la Figura:
+
+![sw3](https://user-images.githubusercontent.com/15126832/27788928-b5cf20e0-5fea-11e7-8c46-07f69864f4cb.PNG)
 
 Cuanto mayor es el número de trazos mayor es la precisión en la representación vectorial pero en contraposición, se aumenta el 
 tiempo de procesamiento por la CPU y genera archivos de salida más pesados. Por ello, cabe resaltar la relevancia de alcanzar 
@@ -64,6 +70,8 @@ algoritmo diseñado en C++. Para el desarrollo de este se utiliza la plataforma 
 simular y documentar el código.
 
 A continuación, se presenta el flujograma del algoritmo en la siguiente Figura:
+
+![software 1](https://user-images.githubusercontent.com/15126832/27788926-b5cc8ea2-5fea-11e7-8a6b-811f9e003de7.png)
 
 Siguiendo la figura previa, que representa la implementación, se aprecia que esta comienza con la configuración del archivo 
 de entrada con el formato .ngc, una vez que lo ha reconocido se procede a la adaptación de los G-Code. Para ello, 
