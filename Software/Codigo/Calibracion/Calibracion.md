@@ -1,6 +1,6 @@
 ## Archivos de Calibración
 
-Para calibrar el Firmware se adjuntan los archivos de calibración con ejemplos de diversas impresiones en la carpeta Calibracion.
+Para calibrar el Firmware se adjuntan los archivos de calibración con ejemplos de diversas impresiones en EjemplosCalibracion.rar.
 
 Entre ellos se encuentran:
 
