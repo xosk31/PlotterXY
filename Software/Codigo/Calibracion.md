@@ -4,7 +4,7 @@ Para calibrar el Firmware se adjuntan los archivos de calibración con ejemplos 
 
 Entre ellos se encuentran:
 
-* ** Escaleras:** el comportamiento del sistema frente a trazados simétricos en los ejes X e Y.
+* **Escaleras:** el comportamiento del sistema frente a trazados simétricos en los ejes X e Y.
 - **Espiral:** el comportamiento del sistema frente a cambios bruscos en la dirección de los ejes X e Y.
 - **Escala:** el comportamiento del sistema frente a las distintas escalas seleccionables manualmente.
 - **Círculos** comportamiento del sistema frente a trazados circulares.
