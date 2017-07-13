@@ -45,3 +45,28 @@ El dispositivo grabador Plotter XY, completamente basado en Open Source, ofrece 
 ### Requisitos FW:
  
  - Firmware PlotterXY.ino.
+ 
+ 
+# Puesta en marcha:
+
+1. Descargar el firmware Plotter XY y el algoritmo de transformación de imágenes.
+     
+2. Descargar los entornos de desarrollo Arduino Ide, Netbeans e Inkscape.
+
+3. Cargar el firmware Plotter XY en la placa Arduino Mega2560 por medio de Arduino Ide
+
+4. Llevar a cabo el montaje del sistema HW segun los pasos de montaje del HW (disponible en este repositorio)
+           -
+5. Formatear la tarjeta SD a un formato FAT16 o FAT32.
+
+6. Modelar el diseño de la figura a serigrafiar por medio de Inkscape.
+
+7. Generar los G-Code de la imagen. Tutorial: https://www.shapeoko.com/wiki/index.php/User:BHSPitMonkey/Inkscape\_and\_Gcodetools\_Tutorial
+
+8. Aplicar el algoritmo de transformación de imágenes mediante NetBeans importando el Algoritmo de transformación de imagenes.rar
+
+9. Copiar el archivo de salida “serigrafia.txt” en la tarjeta SD
+
+10. Conectar la estructura a la red eléctrica.
+
+11. Insertar la tarjeta SD en el lector de tarjetas de la RAMPS.
