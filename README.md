@@ -5,8 +5,6 @@ El dispositivo grabador Plotter XY, completamente basado en Open Source, ofrece 
 
 # Descripción del contenido:
 
-* **Manual de usuario**.
-
 ## Hardware:
 
 * **Esquema general:** esquema del módulo HW con todos los elementos que lo componen.
