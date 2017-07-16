@@ -93,7 +93,7 @@ estas que cuentan con el siguiente formato:
  
 Las coordenadas X e Y están claramente diferenciadas por un indicativo con su letra en mayúscula que permite efectuar una 
 función en bucle que recorre el número total de coordenadas. A partir de estas, se obtiene el número de tipo float que prosigue 
-a dicha letra, guardando cada coordenada en una línea del archivo \textit{.txt} de forma alterna, es decir, una coordenada de 
+a dicha letra, guardando cada coordenada en una línea del archivo .txt de forma alterna, es decir, una coordenada de 
 X y otra de Y y así sucesivamente hasta que el método detecta el comando que indica el final de tramo que guarda un 5.000000, 
 cifra que el Firmware traduce como flag para detectar el final de un trazo cerrado.
  
